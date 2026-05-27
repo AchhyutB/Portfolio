@@ -102,27 +102,27 @@ const blogPosts = [
 const techStack = [
   {
     category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
-  },
-  {
-    category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["JavaScript,", "React.js"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS,", "BootStrap,", "CSS"],
   },
-  {
-    category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
-  },
-  {
-    category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
-  },
+  // {
+  //   category: "Backend",
+  //   items: ["Node.js,", "Express,", "NestJS,", "Hono,"],
+  // },
+  // {
+  //   category: "Database",
+  //   items: ["MongoDB,", "PostgreSQL,"],
+  // },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git,", "GitHub,", "Docker,"],
+  },
+  {
+    category: "UI/UX Design",
+    items: ["Figma"],
   },
 ];
 
@@ -132,28 +132,28 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/AchhyutB",
   },
-  {
-    id: 2,
-    text: "Platform",
-    icon: "/icons/atom.svg",
-    bg: "#4bcb63",
-    link: "https://jsmastery.com/",
-  },
+  // {
+  //   id: 2,
+  //   text: "Platform",
+  //   icon: "/icons/atom.svg",
+  //   bg: "#4bcb63",
+  //   link: "https://jsmastery.com/",
+  // },
   {
     id: 3,
     text: "Twitter/X",
     icon: "/icons/twitter.svg",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://x.com/MortalxD___",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/achhyut-baral-541793320/?originalSubdomain=np",
   },
 ];
 
@@ -225,7 +225,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Hotel Booking Website",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -233,16 +233,16 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Nike Project.txt",
+          name: "Hotel Booking.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "QuickStay is a full-stack hotel booking platform designed for discovering and reserving premium accommodations across Nepal.",
+            "Instead of a basic listing site, it delivers an immersive experience with luxury hotel cards, exclusive offers, and seamless booking flows.",
+            "Think of it like having a personal travel concierge — browse destinations, filter by city or price, and book your stay in just a few clicks.",
+            "Built with React, Tailwind CSS, and Clerk authentication, ensuring fast performance, responsive design, and a secure, premium experience.",
           ],
         },
         {
